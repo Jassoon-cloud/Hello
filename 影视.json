@@ -1,32 +1,98 @@
 {
- logo:"https://i.postimg.cc/Znx3vSCw/1-3.png",
- wallpaper:"https://i.postimg.cc/k469Wksd/20240603162129.jpg",
- lives:[
-   {"name":"IPV4","type":0,"url":"./tv/IPTV4.m3u","playerType": 2,"ua": "okhttp/3.12.13","epg": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/?ch={name}&date={date}","logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
-   {"name":"IPTV4","type":0,"url":"./tv/删词.txt","playerType": 2,"ua": "okhttp/3.12.13","epg": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/?ch={name}&date={date}","logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
+ "wallpaper":"https://i.postimg.cc/k469Wksd/20240603162129.jpg",
+ "lives":[
+   {"name":"IPV4","type":0,"url":"https://gitlab.com/api/v4/projects/clash-c%2FIPTV4/repository/files/一次测速城市分类%2FIPTV4.m3u","playerType": 2,"ua": "okhttp/3.12.13"},
    {"name":"IPV6","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u","ua":"okhttp/3.12.13","logo":"https://live.fanmingming.com/tv/{name}.png"},
-   {"name":"IPTV","type":0,"url":"https://raw.githubusercontent.com/ls125781003/tvboxtg/refs/heads/main/drpy_t3/lives/杭州华数.m3u","ua":"okhttp/3.12.13","logo":"https://live.fanmingming.com/tv/{name}.png"}
+   {"name":"IPTV","type":0,"url":"https://raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/live.txt","ua":"okhttp/3.12.13","logo":"https://live.fanmingming.com/tv/{name}.png"}
  ],
- sites:[
-   {"key":"hipy_js_豆瓣","name":"豆瓣[片库]","type":3,"indexs":1,"searchable":1,"quickSearch":0,"changeable":0,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"},
-   {"key":"hipy_js_我的哔哩","name":"哔哩[综合]","type":3,"style":{"type":"rect","ratio":1.597},"changeable":0,"api":"./lib/drpy2.min.js","ext":"./js/我的哔哩.js"},
-   {"key":"hipy_js_哔哩直播","name":"哔哩[直播]","type":3,"style":{"type":"rect","ratio":1.597},"changeable":0,"api":"./lib/drpy2.min.js","ext":"./js/哔哩直播.js"},
-   {"key":"hipy_js_老白听书","name":"老白[听书]","type":3,"searchable":1,"quickSearch":0,"filterable":1,"timeout":30,"api":"./lib/drpy2.min.js","ext":"./js/老白故事.js"},
-   {"key":"hipy_js_荐片","name":"荐片[影视]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"timeout":30,"api":"./lib/drpy2.min.js","ext":"./js/荐片.js"},
-   {"key":"hipy_js_素白白","name":"白白[影视]","type":3,"searchable":1,"quickSearch":1,"filterable":1,"timeout":30,"api":"./lib/drpy2.min.js","ext":"./js/素白白.js"},
-   {"key":"hipy_js_小白菜","name":"白菜[影视]","type":3,"searchable":1,"quickSearch":1,"filterable":1,"timeout":30,"api":"./lib/drpy2.min.js","ext":"./js/小白菜电影.js"},
-   {"key":"hipy_js_虎牙直播","name":"虎牙[直播]","type":3,"style":{"type":"rect","ratio":1.597},"changeable":0,"api":"./lib/drpy2.min.js","ext":"./js/虎牙直播.js"},
-   {"key":"hipy_js_JRKAN直播","name":"体育[直播]","type":3,"changeable":0,"style":{"type":"rect","ratio":1},"api":"./lib/drpy2.min.js","ext":"./js/jrk.js"},
-   {"key":"hipy_js_88看球","name":"看球[直播]","type":3,"changeable":0,"style":{"type":"rect","ratio":1},"api":"./lib/drpy2.min.js","ext":"./js/88看球.js"},
-   {"key":"hipy_js_4K","name":"超清[影视]","type":3,"searchable":1,"quickSearch":0,"filterable":1,"timeout":30,"api":"./lib/drpy2.min.js","ext":"./js/4K-AV.js"},
-   {"key":"hipy_js_瓜子","name":"瓜子[影视]","type":3,"searchable":1,"quickSearch":0,"filterable":1,"timeout":30,"api":"./lib/drpy2.min.js","ext":"./js/guazi.js"},
-   {"key":"hipy_js_4k剧院","name":"剧院[影视]","type":3,"searchable":1,"quickSearch":1,"filterable":1,"timeout":30,"api":"./lib/drpy2.min.js","ext":"./js/4k剧院.js"},
-   {"key":"hipy_js_干饭影视","name":"干饭[影视]","type":3,"searchable":1,"quickSearch":1,"filterable":1,"timeout":30,"api":"./lib/drpy2.min.js","ext":"./js/干饭影视.js"},
-   {"key":"hipy_js_金牌影院","name":"金牌[影视]","type":3,"searchable":1,"quickSearch":0,"filterable":1,"timeout":30,"api":"./lib/drpy2.min.js","ext":"./js/金牌影院.js"},
-   {"key":"hipy_js_哔嘀影视","name":"哔嘀[影视]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"timeout":30,"api":"./lib/drpy2.min.js","ext":"./js/哔嘀影视.js"},
-   {"key":"hipy_js_低端","name":"低端[影视]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"timeout":30,"api":"./lib/drpy2.min.js","ext":"./js/低端.js"}
+ "sites":[
+   {
+    "key":"hipy_js_豆瓣","name":"豆瓣[片库]","type":3,"indexs":1,"searchable":1,"quickSearch":0,"changeable":0,
+    "api":"./lib/drpy2.min.js",
+    "ext":"./js/drpy.js"
+   },
+   {
+    "key":"hipy_js_我的哔哩","name":"哔哩[综合]","type":3,"style":{"type":"rect","ratio":1.597},"changeable":0,
+    "api":"./lib/drpy2.min.js",
+    "ext":"./js/我的哔哩.js"
+   },
+   {
+    "key":"hipy_js_哔哩直播","name":"哔哩[直播]","type":3,"style":{"type":"rect","ratio":1.597},"changeable":0,
+    "api":"./lib/drpy2.min.js",
+    "ext":"./js/哔哩直播.js"
+   },
+   {
+    "key":"hipy_js_虎牙直播","name":"虎牙[直播]","type":3,"style":{"type":"rect","ratio":1.597},"changeable":0,
+    "api":"./lib/drpy2.min.js",
+    "ext":"./js/虎牙直播.js"
+   },
+   {
+    "key":"hipy_js_老白听书","name":"老白[听书]","type":3,"searchable":1,"quickSearch":0,"filterable":1,"timeout":30,
+    "api":"./lib/drpy2.min.js",
+    "ext":"./js/老白故事.js"
+   },
+   {
+    "key":"hipy_js_JRKAN直播","name":"体育[直播]","type":3,"changeable":0,"style":{"type":"rect","ratio":1},
+    "api":"./lib/drpy2.min.js",
+    "ext":"./js/jrk.js"
+   },
+   {
+    "key":"hipy_js_88看球","name":"看球[直播]","type":3,"changeable":0,"style":{"type":"rect","ratio":1},
+    "api":"./lib/drpy2.min.js",
+    "ext":"./js/88看球.js"
+   },
+   {
+    "key":"hipy_js_荐片","name":"荐片[影视]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"timeout":30,
+    "api":"./lib/drpy2.min.js",
+    "ext":"./js/荐片.js"
+   },
+   {
+    "key":"hipy_js_素白白","name":"白白[影视]","type":3,"searchable":1,"quickSearch":1,"filterable":1,"timeout":30,
+    "api":"./lib/drpy2.min.js",
+    "ext":"./js/素白白.js"
+   },
+   {
+    "key":"hipy_js_瓜子","name":"瓜子[影视]","type":3,"searchable":1,"quickSearch":1,"filterable":1,"timeout":30,
+    "api":"./lib/drpy2.min.js",
+    "ext":"./js/guazi.js"
+   },
+   {
+    "key":"hipy_js_4k剧院","name":"剧院[影视]","type":3,"searchable":1,"quickSearch":1,"filterable":1,"timeout":30,
+    "api":"./lib/drpy2.min.js",
+    "ext":"./js/4k剧院.js"
+   },
+   {
+    "key":"hipy_js_4K-AV","name":"超清[影视]","type":3,"searchable":1,"quickSearch":1,"filterable":1,"timeout":30,
+    "api":"./lib/drpy2.min.js",
+    "ext":"./js/4K-AV.js"
+   },
+   {
+    "key":"hipy_js_金牌影院","name":"金牌[影视]","type":3,"searchable":1,"quickSearch":1,"filterable":1,"timeout":30,
+    "api":"./lib/drpy2.min.js",
+    "ext":"./js/金牌影院.js"
+   },
+   {
+    "key":"hipy_js_家庭影视","name":"家庭[影视]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"timeout":30,
+    "api":"./lib/drpy2.min.js",
+    "ext":"./js/家庭影视.js"
+   },
+   {
+    "key":"hipy_js_星辰影视","name":"星辰[影视]","type":3,"searchable":1,"quickSearch":1,"filterable":1,"timeout":30,
+    "api":"./lib/drpy2.min.js",
+    "ext":"./js/星辰CT.js"
+   },
+   {
+    "key":"hipy_js_哔嘀影视","name":"哔嘀[影视]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"timeout":30,
+    "api":"./lib/drpy2.min.js",
+    "ext":"./js/哔嘀影视.js"
+   },
+   {
+    "key":"hipy_js_低端","name":"低端[影视]","type":3,"searchable":1,"quickSearch":1,"changeable":1,"timeout":30,
+    "api":"./lib/drpy2.min.js",
+    "ext":"./js/低端.js"
+   }
 ],
- parses:[
+ "parses":[
    {"name":"Json聚合","type":3,"url":"Demo"},
    {"name":"云API","type":1,"url":"http://119.91.123.253:2345/Api/yun.php?url="},
    {"name":"jx","type":0,"url":"https://jx.m3u8.tv/jx/jx.php?url="},
@@ -45,8 +111,8 @@
    {"name":"云解析","type":0,"url":"https://jx.yparse.com/index.php?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
    {"name":"爱豆","type":0,"url":"https://jx.aidouer.net/?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36","referer":"https://jiejie.uk/"}}}
  ],
- flags:["youku","优酷","优酷","优酷视频","qq","腾讯","腾讯","腾讯视频","iqiyi","qiyi","奇艺","爱奇艺","爱奇艺","m1905","xigua","letv","leshi","乐视","乐视","sohu","搜狐","搜狐","搜狐视频","tudou","mgtv","芒果","imgo","芒果TV","芒果TV","bilibili","哔哩","哔哩哔哩","SPA","YuMi-vip","pptv","PPTV","ltnb","rx","SLYS4k","tucheng","BYGA","luanzi","dxzy","QEYSS","aliyun","AliS","122","chuangying","CL4K","xfyun","wuduzy","wasu","renrenmi","ppayun","haiwaikan","cool","dbm3u8","xmm","funshion","ruyi1080","ruyib1080"],
- doh:[
+ "flags":["youku","优酷","优酷","优酷视频","qq","腾讯","腾讯","腾讯视频","iqiyi","qiyi","奇艺","爱奇艺","爱奇艺","m1905","xigua","letv","leshi","乐视","乐视","sohu","搜狐","搜狐","搜狐视频","tudou","mgtv","芒果","imgo","芒果TV","芒果TV","bilibili","哔哩","哔哩哔哩","SPA","YuMi-vip","pptv","PPTV","ltnb","rx","SLYS4k","tucheng","BYGA","luanzi","dxzy","QEYSS","aliyun","AliS","122","chuangying","CL4K","xfyun","wuduzy","wasu","renrenmi","ppayun","haiwaikan","cool","dbm3u8","xmm","funshion","ruyi1080","ruyib1080"],
+ "doh":[
    {"name":"Google","url":"https://dns.google/dns-query","ips":["8.8.4.4","8.8.8.8"]},
    {"name":"Cloudflare","url":"https://cloudflare-dns.com/dns-query","ips":["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"]},
    {"name":"AdGuard","url":"https://dns.adguard.com/dns-query","ips":["94.140.14.140","94.140.14.141"]},
