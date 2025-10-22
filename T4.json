@@ -1,0 +1,42 @@
+[
+  {
+    "id": "py_douyu",
+    "name": "斗鱼直播",
+    "api": "http://127.0.0.1:5757/api/斗鱼直播弹幕[官]?pwd=HelloK123@",
+    "nsfw": false,
+    "type": 1,
+    "extra": {
+      "template": "t4"
+    }
+  },
+  {
+    "id": "py_jianpian",
+    "name": "荐片影视",
+    "api": "http://127.0.0.1:5757/api/荐片?pwd=HelloK123@",
+    "nsfw": false,
+    "type": 1,
+    "extra": {
+      "template": "t4"
+    }
+  },
+  {
+    "id": "py_kekeyingshi",
+    "name": "可可影视",
+    "api": "http://127.0.0.1:5757/api/可可影视?pwd=HelloK123@",
+    "nsfw": false,
+    "type": 1,
+    "extra": {
+      "template": "t4"
+    }
+  },
+  {
+    "id": "py_Dm84",
+    "name": "🍋动漫巴士(T4)",
+    "api": "https://py.doube.eu.org/spider?site=Dm84",
+    "nsfw": false,
+    "type": 1,
+    "extra": {
+      "template": "t4"
+    }
+  }
+]
